@@ -15,7 +15,7 @@ const hotelsData = [
   {
     id: "hotel-001",
     name: "আল্লাহর দান বিরিয়ানি হাউজ",
-    image: "allahordan.jpeg",
+    image: "restu/allahordan.jpeg",
     category: "Hotel's Food",
     location: "College Gate",
     rating: 4.4,
