@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#203a5f"/><stop offset="1" stop-color="#e8b76a"/></linearGradient></defs>
-<rect width="1200" height="700" fill="url(#g)"/><rect y="470" width="1200" height="230" fill="#17243a"/>
-<rect x="170" y="130" width="860" height="390" rx="18" fill="#f6f4ee"/><rect x="220" y="190" width="760" height="80" fill="#d8b36b"/>
-<g fill="#294b70"> <rect x="250" y="315" width="110" height="105"/><rect x="395" y="315" width="110" height="105"/><rect x="540" y="315" width="110" height="105"/><rect x="685" y="315" width="110" height="105"/><rect x="830" y="315" width="110" height="105"/></g>
-<rect x="520" y="390" width="160" height="130" fill="#8b6844"/><text x="600" y="240" text-anchor="middle" font-family="Arial" font-size="48" font-weight="700" fill="#203a5f">GRAND HOTEL</text>
-<text x="600" y="600" text-anchor="middle" font-family="Arial" font-size="38" fill="#fff">COLLEGE GATE</text></svg>
