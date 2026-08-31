@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotels | All in One</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">All in <span>One</span></a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="hotels.html" class="nav-link active">Hotels</a>
+        <a href="others.html" class="nav-link">Others</a>
+        <!-- <a href="login.html" class="nav-link nav-btn">Login</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <section class="section-header">
+      <div>
+        <h2>Popular Hotels</h2>
+        <p>College Gate-এর জনপ্রিয় খাবারের হোটেল থেকে আপনার পছন্দের খাবার অর্ডার করুন।</p>
+      </div>
+    </section>
+
+    <div id="hotels-list" class="grid-container" style="margin-top: 24px;">
+      <!-- Hotel cards are rendered by hotels.js -->
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2026 All in One. Serving College Gate Area.</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="location.js"></script>
+  <script src="hotels.js"></script>
+  <script src="app.js"></script>
+  <script src="open-browser.js"></script>
+</body>
+</html>
