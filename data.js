@@ -7,7 +7,7 @@ const restaurantsData = [
   {
     id: "rest-001",
     name: "Bismillah Mini Chinese and Fast Food",
-    image: "bismillah.png",
+    image: "restu/bismillah.png",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
@@ -112,7 +112,7 @@ const restaurantsData = [
   {
     id: "rest-002",
     name: "King's Delicious Food",
-    image: "kings.jpg",
+    image: "restu/kings.jpg",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
@@ -217,7 +217,7 @@ const restaurantsData = [
   {
     id: "rest-003",
     name: "Rustic Lounge-Tongi",
-    image: "Rustic.jpg",
+    image: "restu/Rustic.jpg",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
@@ -322,7 +322,7 @@ const restaurantsData = [
   {
     id: "rest-004",
     name: "🍨Yumi🍟",
-    image: "yumi.jpg",
+    image: "restu/yumi.jpg",
     category: "Desserts, Fries & Fast Food",
     location: "College Gate",
     description: "Desserts, fries, burgers, rice bowls, drinks and fast food.",
