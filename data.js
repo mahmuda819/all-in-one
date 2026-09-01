@@ -251,13 +251,13 @@ const restaurantsData = [
     ]
   },
   {
-    id: "rest-004",
+    id: "rest-005",
     name: "WITTY - Iᴛᴀʟɪᴀɴ Pɪᴢᴢᴀ & Mᴏʀᴇ",
     image: "restu/witty.png",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
-    rating: 3.9,
+    rating: 4.2,
     menu: [
      
     ]
