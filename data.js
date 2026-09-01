@@ -251,9 +251,9 @@ const restaurantsData = [
     ]
   },
   {
-    id: "rest-005",
-    name: "Bismillah Mini Chinese and Fast Food",
-    image: "assets/restaurants/college_gate_cafe.jpg",
+    id: "rest-004",
+    name: "WITTY - Iᴛᴀʟɪᴀɴ Pɪᴢᴢᴀ & Mᴏʀᴇ",
+    image: "restu/witty.png",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
