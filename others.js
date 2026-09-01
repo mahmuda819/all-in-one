@@ -22,7 +22,45 @@ const othersData = [
       { id: "other-001-item-2", name: "French Fries", price: 80, description: "Crispy salted fries." },
       { id: "other-001-item-3", name: "Chicken Roll", price: 100, description: "Spiced chicken filling wrapped fresh." }
     ]
-  }
+  },
+  
+  {
+    id: "other-001",
+    name: "College Gate Snacks",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80",
+    category: "Street Food",
+    location: "College Gate Area",
+    rating: 4.5,
+    description: "Popular local snacks and quick bites around College Gate.",
+    items: [
+      { id: "other-001-item-1", name: "Chicken Burger", price: 120, description: "Freshly prepared chicken burger." },
+      { id: "other-001-item-2", name: "French Fries", price: 80, description: "Crispy salted fries." },
+      { id: "other-001-item-3", name: "Chicken Roll", price: 100, description: "Spiced chicken filling wrapped fresh." }
+    ]
+  },
+
+  {
+    id: "other-001",
+    name: "College Gate Snacks",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80",
+    category: "Street Food",
+    location: "College Gate Area",
+    rating: 4.5,
+    description: "Popular local snacks and quick bites around College Gate.",
+    items: [
+      { id: "other-001-item-1", name: "Chicken Burger", price: 120, description: "Freshly prepared chicken burger." },
+      { id: "other-001-item-2", name: "French Fries", price: 80, description: "Crispy salted fries." },
+      { id: "other-001-item-3", name: "Chicken Roll", price: 100, description: "Spiced chicken filling wrapped fresh." }
+    ]
+  },
+
+
+
+
+
+
+
+
 ];
 
 const OTHERS_WHATSAPP_NUMBER = "8801779677819";

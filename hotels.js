@@ -19,7 +19,7 @@ const hotelsData = [
     category: "Hotel's Food",
     location: "College Gate",
     rating: 4.4,
-    description: "College Gate-এর জনপ্রিয় আল্লাহর দান বিরিয়ানি হাউজের আসল মেনু থেকে খাবার অর্ডার করুন।",
+    description: "Open:10 AM-10 PM.",
     items: [
       { id: "hotel-001-item-1", name: "খাসির কাচ্চি (বাসমতি) ডিম ছাড়া — হাফ", price: 200, description: "বাসমতি চালের খাসির কাচ্চি।" },
       { id: "hotel-001-item-2", name: "খাসির কাচ্চি (বাসমতি) ডিম ছাড়া — ফুল", price: 390, description: "বাসমতি চালের খাসির কাচ্চি।" },
@@ -56,34 +56,37 @@ const hotelsData = [
       { id: "hotel-001-item-33", name: "বোরহানী — এক লিটার", price: 180, description: "বোরহানী।" }
     ]
   },
+  
   {
-    id: "hotel-002",
-    name: "Campus View Food Hotel",
-    image: "assets/hotels/campus-view-residence.svg",
+    id: "hotel-001",
+    name: "আল্লাহর দান বিরিয়ানি হাউজ",
+    image: "restu/allahordan.jpeg",
     category: "Hotel's Food",
     location: "College Gate",
-    rating: 4.6,
-    description: "College Gate এলাকার জনপ্রিয় খাবারের হোটেল থেকে আপনার পছন্দের খাবার অর্ডার করুন।",
+    rating: 4.4,
+    description: "Open:10 AM-10 PM.",
     items: [
-      { id: "hotel-002-item-1", name: "ভাত + চিকেন", price: 130, description: "ভাতের সাথে সুস্বাদু চিকেন।" },
-      { id: "hotel-002-item-2", name: "ভাত + বিফ", price: 160, description: "ভাতের সাথে মজাদার বিফ।" },
-      { id: "hotel-002-item-3", name: "চিকেন খিচুড়ি", price: 120, description: "গরম ও সুস্বাদু চিকেন খিচুড়ি।" }
+
     ]
   },
+
   {
-    id: "hotel-003",
-    name: "College Gate Family Hotel",
-    image: "assets/hotels/college-gate-grand.svg",
+    id: "hotel-001",
+    name: "আল্লাহর দান বিরিয়ানি হাউজ",
+    image: "restu/allahordan.jpeg",
     category: "Hotel's Food",
     location: "College Gate",
-    rating: 4.5,
-    description: "পরিবার ও শিক্ষার্থীদের জন্য জনপ্রিয় স্থানীয় খাবারের হোটেল।",
+    rating: 4.4,
+    description: "Open:10 AM-10 PM.",
     items: [
-      { id: "hotel-003-item-1", name: "চিকেন ফ্রাই", price: 150, description: "ক্রিস্পি ও সুস্বাদু চিকেন ফ্রাই।" },
-      { id: "hotel-003-item-2", name: "ফ্রাইড রাইস", price: 140, description: "ফ্রেশ ও সুস্বাদু ফ্রাইড রাইস।" },
-      { id: "hotel-003-item-3", name: "চিকেন নুডলস", price: 130, description: "সবজি ও চিকেন দিয়ে তৈরি নুডলস।" }
+
     ]
-  }
+  },
+
+
+
+
+
 ];
 
 const HOTEL_WHATSAPP_NUMBER = "8801779677819";
