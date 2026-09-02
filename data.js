@@ -358,7 +358,99 @@ const restaurantsData = [
     description: "Open:10 AM-10 PM.",
     rating: 3.9,
     menu: [
+   // Motto Food Restaurant Data
+    // ================= BURGER =================
+    { id: 1, name: "Double Down", category: "Burger", price: 290 },
+    { id: 2, name: "GP Burger", category: "Burger", price: 160 },
+    { id: 3, name: "Chick Room Burger", category: "Burger", price: 180 },
+    { id: 4, name: "Premium BBQ Burger", category: "Burger", price: 250 },
+    { id: 5, name: "Mr. Motto Burger", category: "Burger", price: 200 },
+    { id: 6, name: "Beef Cheese Burger", category: "Burger", price: 180 },
+    { id: 7, name: "Beef BBQ Burger", category: "Burger", price: 200 },
+    { id: 8, name: "Beef Supreme Burger", category: "Burger", price: 290 },
+    { id: 9, name: "Crunchy Gur Burger", category: "Burger", price: 220 },
+    { id: 10, name: "Naga Chicken Fighter", category: "Burger", price: 230 },
+    { id: 11, name: "Chicken Toast Burger", category: "Burger", price: 230 },
 
+    // ================= ADD ONS =================
+    { id: "add-1", name: "Cheese", category: "Add Ons", price: 40 },
+    { id: "add-2", name: "Egg", category: "Add Ons", price: 30 },
+    { id: "add-3", name: "BBQ Sauce", category: "Add Ons", price: 30 },
+    { id: "add-4", name: "Naga Sauce", category: "Add Ons", price: 20 },
+    { id: "add-5", name: "Mayonnaise", category: "Add Ons", price: 20 },
+    { id: "add-6", name: "Chicken Patty", category: "Add Ons", price: 100 },
+    { id: "add-7", name: "Beef Patty", category: "Add Ons", price: 130 },
+
+    // ================= SUB =================
+    { id: 12, name: "Chicken Sub", category: "Sub", price: 190 },
+    { id: 13, name: "Mexican Chicken Sub", category: "Sub", price: 200 },
+    { id: 14, name: "Beef Sub", category: "Sub", price: 220 },
+
+    // ================= PASTA =================
+    { id: 15, name: "Pasta Basta", category: "Pasta", price: { small: 180, large: 250 } },
+    { id: 16, name: "Pasta Achari", category: "Pasta", price: { small: 190, large: 270 } },
+    { id: 17, name: "Naga Pasta", category: "Pasta", price: { small: 190, large: 270 } },
+
+    // ================= SHAWARMA =================
+    { id: 18, name: "Chicken Shawarma", category: "Shawarma", price: 180 },
+    { id: 19, name: "Beef Shawarma", category: "Shawarma", price: 210 },
+
+    // ================= PIZZA =================
+    { id: 20, name: "Regular Pizza", category: "Pizza", price: 350 },
+    { id: 21, name: "Naga Pizza", category: "Pizza", price: 360 },
+
+    // ================= FRY =================
+    { id: 22, name: "Chicken Strips (5 Pcs)", category: "Fry", price: 190 },
+    { id: 23, name: "Fish Chips (5 Pcs)", category: "Fry", price: 220 },
+    { id: 24, name: "Fish and Meat", category: "Fry", price: 210 },
+    { id: 25, name: "French Fries", category: "Fry", price: 130 },
+    { id: 26, name: "Wedges", category: "Fry", price: 150 },
+
+    // ================= MEAT BOX =================
+    { id: 27, name: "Regular Meat Box", category: "Meat Box", price: 250 },
+    { id: 28, name: "Naga Meat Box", category: "Meat Box", price: 270 },
+    { id: 29, name: "Moto Box", category: "Meat Box", price: 280 },
+    { id: 30, name: "Cheese Motka Meat", category: "Meat Box", price: 290 },
+    { id: 31, name: "Dry Fry Box", category: "Meat Box", price: 280 },
+
+    // ================= WINGS =================
+    { id: 32, name: "Crunchy Wings (5 Pcs)", category: "Wings", price: 190 },
+    { id: 33, name: "Buffalo Wings (6 Pcs)", category: "Wings", price: 180 },
+    { id: 34, name: "Naga Wings (6 Pcs)", category: "Wings", price: 190 },
+
+    // ================= PLATER =================
+    { 
+      id: "plater-1", 
+      name: "Petuk", 
+      category: "Plater", 
+      price: 320, 
+      items: ["Chicken Cutlet", "Chicken Sausage", "Fries", "Cold Coffee"] 
+    },
+    { 
+      id: "plater-2", 
+      name: "Hungry Man", 
+      category: "Plater", 
+      price: 350, 
+      items: ["Burger", "Meat Ball", "Fries", "Soft Drinks"] 
+    },
+    { 
+      id: "plater-3", 
+      name: "Moto Couple (2 person)", 
+      category: "Plater", 
+      price: 500, 
+      items: ["Two Medium Meat Box", "Burger", "Fries", "Wings"] 
+    },
+
+    // ================= HOT AND COLD =================
+    { id: "bev-1", name: "Cold Strawberry", category: "Hot and Cold", price: { small: 80, large: 130 } },
+    { id: "bev-2", name: "Cold Coffee", category: "Hot and Cold", price: { small: 90, large: 150 } },
+    { id: "bev-3", name: "Mango Lassi", category: "Hot and Cold", price: { small: 90, large: 150 } },
+    { id: "bev-4", name: "Hot Coffee", category: "Hot and Cold", price: 130 },
+    { id: "bev-5", name: "Black Coffee", category: "Hot and Cold", price: 90 },
+
+    // ================= DRINKS =================
+    { id: "drink-1", name: "Soft Drinks", category: "Drinks", price: 30 },
+    { id: "drink-2", name: "Fresh Water", category: "Drinks", price: 20 }
     ]
   },
 
