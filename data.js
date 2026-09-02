@@ -113,7 +113,7 @@ const restaurantsData = [
   {
     id: "rest-002",
     name: "King's Delicious Food",
-    image: "restu/kings.jpg",
+    image: "restu/kings.png",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
@@ -130,7 +130,7 @@ const restaurantsData = [
   {
     id: "rest-003",
     name: "Rustic Lounge-Tongi",
-    image: "restu/Rustic.jpg",
+    image: "restu/rustic.png",
     category: "Fast Food & Snacks",
     location: "College Gate",
     description: "Open:10 AM-10 PM.",
