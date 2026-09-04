@@ -119,10 +119,486 @@ const restaurantsData = [
     description: "Open:10 AM-10 PM.",
     rating: 4.1,
     menu: [
-     
+  // King's Special
+  {
+    id: "item-501",
+    name: "King's Special Whole Chicken",
+    image: "restu/kings.png",
+    category: "King's Special",
+    description: "Whole Chicken",
+    price: 650,
+    available: true
+  },
+
+  // Appetizer
+  {
+    id: "item-502",
+    name: "French Fry",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 230,
+    available: true
+  },
+  {
+    id: "item-503",
+    name: "Regular Wonton 8pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 350,
+    available: true
+  },
+  {
+    id: "item-504",
+    name: "Chicken Nugget 6pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 250,
+    available: true
+  },
+  {
+    id: "item-505",
+    name: "Special Wonton 8pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 380,
+    available: true
+  },
+  {
+    id: "item-506",
+    name: "Chicken Strips 6pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 350,
+    available: true
+  },
+  {
+    id: "item-507",
+    name: "Nachos",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 330,
+    available: true
+  },
+  {
+    id: "item-508",
+    name: "Spicy Chicken 6pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-509",
+    name: "Thai Chicken 4pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 420,
+    available: true
+  },
+  {
+    id: "item-510",
+    name: "Thai Chicken 8pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 650,
+    available: true
+  },
+  {
+    id: "item-511",
+    name: "Crispy Chicken 4pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 600,
+    available: true
+  },
+  {
+    id: "item-512",
+    name: "Chicken Popcorn 6pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 320,
+    available: true
+  },
+  {
+    id: "item-513",
+    name: "Chicken Lollipop 6pcs",
+    image: "restu/kings.png",
+    category: "Appetizer",
+    description: "",
+    price: 360,
+    available: true
+  },
+
+  // Wings
+  {
+    id: "item-514",
+    name: "King's Special Wings 4p",
+    image: "restu/kings.png",
+    category: "Wings",
+    description: "",
+    price: 350,
+    available: true
+  },
+  {
+    id: "item-515",
+    name: "Naga Wings 4p",
+    image: "restu/kings.png",
+    category: "Wings",
+    description: "",
+    price: 310,
+    available: true
+  },
+  {
+    id: "item-516",
+    name: "Buffalo Wings 4p",
+    image: "restu/kings.png",
+    category: "Wings",
+    description: "",
+    price: 300,
+    available: true
+  },
+  {
+    id: "item-517",
+    name: "Regular Wings 4p",
+    image: "restu/kings.png",
+    category: "Wings",
+    description: "",
+    price: 290,
+    available: true
+  },
+
+  // Soup
+  {
+    id: "item-518",
+    name: "King's Special Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 650,
+    available: true
+  },
+  {
+    id: "item-519",
+    name: "Thai Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-520",
+    name: "Thai Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 500,
+    available: true
+  },
+  {
+    id: "item-521",
+    name: "Special Thai Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 430,
+    available: true
+  },
+  {
+    id: "item-522",
+    name: "Special Thai Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 550,
+    available: true
+  },
+  {
+    id: "item-523",
+    name: "Chicken Corn Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 350,
+    available: true
+  },
+  {
+    id: "item-524",
+    name: "Chicken Corn Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 450,
+    available: true
+  },
+  {
+    id: "item-525",
+    name: "Special Chicken Corn Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 360,
+    available: true
+  },
+  {
+    id: "item-526",
+    name: "Special Chicken Corn Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 480,
+    available: true
+  },
+  {
+    id: "item-527",
+    name: "Vegetable Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 350,
+    available: true
+  },
+  {
+    id: "item-528",
+    name: "Vegetable Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 450,
+    available: true
+  },
+  {
+    id: "item-529",
+    name: "Thai Clear Soup 1:2",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 450,
+    available: true
+  },
+  {
+    id: "item-530",
+    name: "Thai Clear Soup 1:3",
+    image: "restu/kings.png",
+    category: "Soup",
+    description: "",
+    price: 550,
+    available: true
+  },
+
+  // Salad Item
+  {
+    id: "item-531",
+    name: "King's Special Mixed Salad 1:3",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 650,
+    available: true
+  },
+  {
+    id: "item-532",
+    name: "Chicken Cashewnut Salad 1:2",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 460,
+    available: true
+  },
+  {
+    id: "item-533",
+    name: "Chicken Cashewnut Salad 1:3",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 560,
+    available: true
+  },
+  {
+    id: "item-534",
+    name: "Chicken Mashroom Salad 1:2",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-535",
+    name: "Chicken Mashroom Salad 1:3",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 500,
+    available: true
+  },
+  {
+    id: "item-536",
+    name: "Green Cashewnut Salad 1:2",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 300,
+    available: true
+  },
+  {
+    id: "item-537",
+    name: "Green Cashewnut Salad 1:3",
+    image: "restu/kings.png",
+    category: "Salad Item",
+    description: "",
+    price: 400,
+    available: true
+  },
+
+  // Fish Item
+  {
+    id: "item-538",
+    name: "Prawn Tempura 5p",
+    image: "restu/kings.png",
+    category: "Fish Item",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-539",
+    name: "Rupchanda Fish Fry 1p",
+    image: "restu/kings.png",
+    category: "Fish Item",
+    description: "",
+    price: 700,
+    available: true
+  },
+  {
+    id: "item-540",
+    name: "Koral Fish Fry 1p",
+    image: "restu/kings.png",
+    category: "Fish Item",
+    description: "",
+    price: 900,
+    available: true
+  },
+
+  // Chowmein
+  {
+    id: "item-541",
+    name: "King's Special Mix Chowmein 1:3",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 650,
+    available: true
+  },
+  {
+    id: "item-542",
+    name: "Chicken Chowmein 1:2",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-543",
+    name: "Chicken Chowmein 1:3",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 500,
+    available: true
+  },
+  {
+    id: "item-544",
+    name: "Prawn Chowmein 1:2",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 420,
+    available: true
+  },
+  {
+    id: "item-545",
+    name: "Prawn Chowmein 1:3",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 520,
+    available: true
+  },
+  {
+    id: "item-546",
+    name: "Beef Chowmein 1:2",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 430,
+    available: true
+  },
+  {
+    id: "item-547",
+    name: "Beef Chowmein 1:3",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 530,
+    available: true
+  },
+  {
+    id: "item-548",
+    name: "Thai Chowmein 1:2",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 500,
+    available: true
+  },
+  {
+    id: "item-549",
+    name: "Thai Chowmein 1:3",
+    image: "restu/kings.png",
+    category: "Chowmein",
+    description: "",
+    price: 600,
+    available: true
+  },
+
+  // Rice Item
+  {
+    id: "item-550",
+    name: "King's Special Mix Fried Rice 1:3",
+    image: "restu/kings.png",
+    category: "Rice Item",
+    description: "",
+    price: 650,
+    available: true
+  },
+  {
+    id: "item-551",
+    name: "Chicken Fried Rice 1:2",
+    image: "restu/kings.png",
+    category: "Rice Item",
+    description: "",
+    price: 400,
+    available: true
+  },
+  {
+    id: "item-552",
+    name: "Chicken Fried Rice 1:3",
+    image: "restu/kings.png",
+    category: "
     ]
-
-
 
   },
     
