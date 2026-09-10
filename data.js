@@ -120,2329 +120,273 @@ const restaurantsData = [
     rating: 4.1,
     menu: [
   // King's Special
-  {
-    id: "item-501",
-    name: "King's Special Whole Chicken",
-    image: "restu/kings.png",
-    category: "King's Special",
-    description: "Whole Chicken",
-    price: 650,
-    available: true
-  },
+  { id: "item-501", name: "King's Special Whole Chicken", image: "restu/kings.png", category: "King's Special", description: "Whole Chicken", price: 650, available: true },
 
   // Appetizer
-  {
-    id: "item-502",
-    name: "French Fry",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 230,
-    available: true
-  },
-  {
-    id: "item-503",
-    name: "Regular Wonton 8pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-504",
-    name: "Chicken Nugget 6pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 250,
-    available: true
-  },
-  {
-    id: "item-505",
-    name: "Special Wonton 8pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 380,
-    available: true
-  },
-  {
-    id: "item-506",
-    name: "Chicken Strips 6pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-507",
-    name: "Nachos",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 330,
-    available: true
-  },
-  {
-    id: "item-508",
-    name: "Spicy Chicken 6pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-509",
-    name: "Thai Chicken 4pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 420,
-    available: true
-  },
-  {
-    id: "item-510",
-    name: "Thai Chicken 8pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-511",
-    name: "Crispy Chicken 4pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 600,
-    available: true
-  },
-  {
-    id: "item-512",
-    name: "Chicken Popcorn 6pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 320,
-    available: true
-  },
-  {
-    id: "item-513",
-    name: "Chicken Lollipop 6pcs",
-    image: "restu/kings.png",
-    category: "Appetizer",
-    description: "",
-    price: 360,
-    available: true
-  },
+  { id: "item-502", name: "French Fry", image: "restu/kings.png", category: "Appetizer", description: "", price: 230, available: true },
+  { id: "item-503", name: "Regular Wonton 8pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 350, available: true },
+  { id: "item-504", name: "Chicken Nugget 6pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 250, available: true }, 
+  { id: "item-505", name: "Special Wonton 8pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 380, available: true },
+  { id: "item-506", name: "Chicken Strips 6pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 350, available: true }, 
+  { id: "item-507", name: "Nachos", image: "restu/kings.png", category: "Appetizer", description: "", price: 330, available: true }, 
+  { id: "item-508", name: "Spicy Chicken 6pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 400, available: true }, 
+  { id: "item-509", name: "Thai Chicken 4pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 420, available: true }, 
+  { id: "item-510", name: "Thai Chicken 8pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 650, available: true }, 
+  { id: "item-511", name: "Crispy Chicken 4pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 600, available: true }, 
+  { id: "item-512", name: "Chicken Popcorn 6pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 320, available: true }, 
+  { id: "item-513", name: "Chicken Lollipop 6pcs", image: "restu/kings.png", category: "Appetizer", description: "", price: 360, available: true }, 
+  { id: "item-514", name: "King's Special Wings 4p", image: "restu/kings.png", category: "Wings", description: "", price: 350, available: true }, 
+  { id: "item-515", name: "Naga Wings 4p", image: "restu/kings.png", category: "Wings", description: "", price: 310, available: true }, 
+  { id: "item-516", name: "Buffalo Wings 4p", image: "restu/kings.png", category: "Wings", description: "", price: 300, available: true }, 
+  { id: "item-517", name: "Regular Wings 4p", image: "restu/kings.png", category: "Wings", description: "", price: 290, available: true }, // Soup 
+  { id: "item-518", name: "King's Special Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 650, available: true }, 
+  { id: "item-519", name: "Thai Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 400, available: true }, 
+  { id: "item-520", name: "Thai Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 500, available: true }, 
+  { id: "item-521", name: "Special Thai Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 430, available: true }, 
+  { id: "item-522", name: "Special Thai Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 550, available: true }, 
+  { id: "item-523", name: "Chicken Corn Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 350, available: true }, 
+  { id: "item-524", name: "Chicken Corn Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 450, available: true }, 
+  { id: "item-525", name: "Special Chicken Corn Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 360, available: true }, 
+  { id: "item-526", name: "Special Chicken Corn Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 480, available: true }, 
+  { id: "item-527", name: "Vegetable Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 350, available: true }, 
+  { id: "item-528", name: "Vegetable Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 450, available: true }, 
+  { id: "item-529", name: "Thai Clear Soup 1:2", image: "restu/kings.png", category: "Soup", description: "", price: 450, available: true }, 
+  { id: "item-530", name: "Thai Clear Soup 1:3", image: "restu/kings.png", category: "Soup", description: "", price: 550, available: true }, 
+  { id: "item-531", name: "King's Special Mixed Salad 1:3", image: "restu/kings.png", category: "Salad Item", description: "", price: 650, available: true }, 
+  { id: "item-532", name: "Chicken Cashewnut Salad 1:2", image: "restu/kings.png", category: "Salad Item", description: "", price: 460, available: true }, 
+  { id: "item-533", name: "Chicken Cashewnut Salad 1:3", image: "restu/kings.png", category: "Salad Item", description: "", price: 560, available: true }, 
+  { id: "item-534", name: "Chicken Mashroom Salad 1:2", image: "restu/kings.png", category: "Salad Item", description: "", price: 400, available: true }, 
+  { id: "item-535", name: "Chicken Mashroom Salad 1:3", image: "restu/kings.png", category: "Salad Item", description: "", price: 500, available: true }, 
+  { id: "item-536", name: "Green Cashewnut Salad 1:2", image: "restu/kings.png", category: "Salad Item", description: "", price: 300, available: true }, 
+  { id: "item-537", name: "Green Cashewnut Salad 1:3", image: "restu/kings.png", category: "Salad Item", description: "", price: 400, available: true }, 
+  { id: "item-538", name: "Prawn Tempura 5p", image: "restu/kings.png", category: "Fish Item", description: "", price: 400, available: true }, 
+  { id: "item-539", name: "Rupchanda Fish Fry 1p", image: "restu/kings.png", category: "Fish Item", description: "", price: 700, available: true }, 
+  { id: "item-540", name: "Koral Fish Fry 1p", image: "restu/kings.png", category: "Fish Item", description: "", price: 900, available: true },  
+  { id: "item-541", name: "King's Special Mix Chowmein 1:3", image: "restu/kings.png", category: "Chowmein", description: "", price: 650, available: true }, 
+  { id: "item-542", name: "Chicken Chowmein 1:2", image: "restu/kings.png", category: "Chowmein", description: "", price: 400, available: true }, 
+  { id: "item-543", name: "Chicken Chowmein 1:3", image: "restu/kings.png", category: "Chowmein", description: "", price: 500, available: true }, 
+  { id: "item-544", name: "Prawn Chowmein 1:2", image: "restu/kings.png", category: "Chowmein", description: "", price: 420, available: true }, 
+  { id: "item-545", name: "Prawn Chowmein 1:3", image: "restu/kings.png", category: "Chowmein", description: "", price: 520, available: true }, 
+  { id: "item-546", name: "Beef Chowmein 1:2", image: "restu/kings.png", category: "Chowmein", description: "", price: 430, available: true }, 
+  { id: "item-547", name: "Beef Chowmein 1:3", image: "restu/kings.png", category: "Chowmein", description: "", price: 530, available: true }, 
+  { id: "item-548", name: "Thai Chowmein 1:2", image: "restu/kings.png", category: "Chowmein", description: "", price: 500, available: true }, 
+  { id: "item-549", name: "Thai Chowmein 1:3", image: "restu/kings.png", category: "Chowmein", description: "", price: 600, available: true },
+  { id: "item-550", name: "King's Special Mix Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 650, available: true }, 
+  { id: "item-551", name: "Chicken Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 400, available: true }, 
+  { id: "item-552", name: "Chicken Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 500, available: true }, 
+  { id: "item-553", name: "Egg Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 360, available: true }, 
+  { id: "item-554", name: "Egg Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 460, available: true }, 
+  { id: "item-555", name: "Beef Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 400, available: true }, 
+  { id: "item-556", name: "Beef Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 500, available: true }, 
+  { id: "item-557", name: "Prawn Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 400, available: true }, 
+  { id: "item-558", name: "Prawn Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 500, available: true }, 
+  { id: "item-559", name: "Thai Mixed Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 460, available: true }, 
+  { id: "item-560", name: "Thai Mixed Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 560, available: true }, 
+  { id: "item-561", name: "Vegetable Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 350, available: true }, 
+  { id: "item-562", name: "Vegetable Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 450, available: true }, 
+  { id: "item-563", name: "Masala Fried Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 400, available: true }, 
+  { id: "item-564", name: "Masala Fried Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 500, available: true }, 
+  { id: "item-565", name: "Steamed Rice 1:2", image: "restu/kings.png", category: "Rice Item", description: "", price: 200, available: true }, 
+  { id: "item-566", name: "Steamed Rice 1:3", image: "restu/kings.png", category: "Rice Item", description: "", price: 300, available: true }, 
+  { id: "item-567", name: "King's Special Mixed Masala 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 650, available: true }, 
+  { id: "item-568", name: "Chicken Masala 1:2", image: "restu/kings.png", category: "Masala Item", description: "", price: 400, available: true }, 
+  { id: "item-569", name: "Chicken Masala 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 500, available: true }, 
+  { id: "item-570", name: "Beef Masala 1:2", image: "restu/kings.png", category: "Masala Item", description: "", price: 450, available: true }, 
+  { id: "item-571", name: "Beef Masala 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 550, available: true }, 
+  { id: "item-572", name: "Prown Masala 1:2", image: "restu/kings.png", category: "Masala Item", description: "", price: 450, available: true }, 
+  { id: "item-573", name: "Prown Masala 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 550, available: true }, 
+  { id: "item-574", name: "Foil Checken 1:2", image: "restu/kings.png", category: "Masala Item", description: "", price: 450, available: true }, 
+  { id: "item-575", name: "Foil Checken 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 550, available: true }, 
+  { id: "item-576", name: "Chicken Manchurian 1:2", image: "restu/kings.png", category: "Masala Item", description: "", price: 420, available: true }, 
+  { id: "item-577", name: "Chicken Manchurian 1:3", image: "restu/kings.png", category: "Masala Item", description: "", price: 520, available: true }, 
+  { id: "item-578", name: "Rupchanda Fish Masala", image: "restu/kings.png", category: "Masala Item", description: "", price: 800, available: true }, 
+  { id: "item-579", name: "Coral Fish Masala", image: "restu/kings.png", category: "Masala Item", description: "", price: 1000, available: true }, 
+  { id: "item-580", name: "King's Special Mix Chilli Onion 1:3", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 650, available: true }, 
+  { id: "item-581", name: "Chicken Chilli Onion 1:2", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 400, available: true }, 
+  { id: "item-582", name: "Chicken Chilli Onion 1:3", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 500, available: true }, 
+  { id: "item-583", name: "Beef Chilli Onion 1:2", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 450, available: true }, 
+  { id: "item-584", name: "Beef Chilli Onion 1:3", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 550, available: true }, 
+  { id: "item-585", name: "Prown Chilli Onion 1:2", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 450, available: true }, 
+  { id: "item-586", name: "Prown Chilli Onion 1:3", image: "restu/kings.png", category: "Chilli Onion", description: "", price: 550, available: true },
+  { id: "item-587", name: "Kings Special Sizzling 1:3", image: "restu/kings.png", category: "Sizzling", description: "", price: 650, available: true }, 
+  { id: "item-588", name: "Beef Sizzling 1:2", image: "restu/kings.png", category: "Sizzling", description: "", price: 500, available: true }, 
+  { id: "item-589", name: "Beef Sizzling 1:3", image: "restu/kings.png", category: "Sizzling", description: "", price: 600, available: true }, 
+  { id: "item-590", name: "Chicken Sizzling 1:2", image: "restu/kings.png", category: "Sizzling", description: "", price: 450, available: true }, 
+  { id: "item-591", name: "Chicken Sizzling 1:3", image: "restu/kings.png", category: "Sizzling", description: "", price: 550, available: true }, 
+  { id: "item-592", name: "Prawn Sizzling 1:2", image: "restu/kings.png", category: "Sizzling", description: "", price: 500, available: true }, 
+  { id: "item-593", name: "Prawn Sizzling 1:3", image: "restu/kings.png", category: "Sizzling", description: "", price: 600, available: true }, 
+  { id: "item-594", name: "King's Special Mixed Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 650, available: true }, 
+  { id: "item-595", name: "Mixed Vegetable 1:2", image: "restu/kings.png", category: "Vegetable", description: "", price: 350, available: true }, 
+  { id: "item-596", name: "Mixed Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 450, available: true }, 
+  { id: "item-597", name: "Chicken Vegetable 1:2", image: "restu/kings.png", category: "Vegetable", description: "", price: 400, available: true }, 
+  { id: "item-598", name: "Chicken Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 500, available: true }, 
+  { id: "item-599", name: "Beef Vegetable 1:2", image: "restu/kings.png", category: "Vegetable", description: "", price: 420, available: true }, 
+  { id: "item-600", name: "Beef Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 520, available: true }, 
+  { id: "item-601", name: "Prown Vegetable 1:2", image: "restu/kings.png", category: "Vegetable", description: "", price: 420, available: true }, 
+  { id: "item-602", name: "Prown Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 520, available: true }, 
+  { id: "item-603", name: "Thai Mixed Vegetable 1:2", image: "restu/kings.png", category: "Vegetable", description: "", price: 450, available: true }, 
+  { id: "item-604", name: "Thai Mixed Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 550, available: true }, 
+  { id: "item-605", name: "Can Mushroom Vegetable 1:3", image: "restu/kings.png", category: "Vegetable", description: "", price: 550, available: true }, 
+  { id: "item-606", name: "Egg Fried Rice + Chicken Fry 1p + Vegetable + Drinks", image: "restu/kings.png", category: "Set Menu 1:1", description: "", price: 280, available: true }, 
+  { id: "item-607", name: "Egg Fried Rice + Chicken Chilli Onion + Mixed Vegetable + Drinks", image: "restu/kings.png", category: "Set Menu 1:1", description: "", price: 310, available: true }, 
+  { id: "item-608", name: "Egg Fried Rice + Chicken Fry 1p + Chicken Masala + Mixed Vegetable + Drinks", image: "restu/kings.png", category: "Set Menu 1:1", description: "", price: 400, available: true }, 
+  { id: "item-609", name: "Egg Fried Rice + Chicken Fry 1p + Prown Masala + Vegetable + Drinks", image: "restu/kings.png", category: "Set Menu 1:1", description: "", price: 450, available: true }, 
+  { id: "item-610", name: "Egg Fried Rice + Chicken Fry 1p + Beef Masala + Vegetable + Drinks", image: "restu/kings.png", category: "Set Menu 1:1", description: "", price: 450, available: true },
+  { id: "item-611", name: "Fried Rice", image: "restu/kings.png", category: "Add ons", description: "", price: 160, available: true }, 
+  { id: "item-612", name: "Chicken Fry Thai / Crispy", image: "restu/kings.png", category: "Add ons", description: "", price: 120, available: true }, 
+  { id: "item-613", name: "Masala Chicken", image: "restu/kings.png", category: "Add ons", description: "", price: 200, available: true }, 
+  { id: "item-614", name: "Masala Beef", image: "restu/kings.png", category: "Add ons", description: "", price: 240, available: true }, 
+  { id: "item-615", name: "Soup + Egg Fried Rice + Chicken Fry + Chicken Masala + Vegetable + Drinks", image: "restu/kings.png", category: "Family Menu 1:4", description: "", price: 2300, available: true }, 
+  { id: "item-616", name: "Soup + Chicken Fried Rice + Chicken Fry + Foil Chicken Gravy + Chicken Sizzling + Vegetable + Drinks", image: "restu/kings.png", category: "Family Menu 1:4", description: "", price: 2900, available: true }, 
+  { id: "item-617", name: "Soup + Thai Fried Rice + Chicken Fry + Chicken Chilli Onion + Beef Sizzling + Vegetable + Drinks", image: "restu/kings.png", category: "Family Menu 1:4", description: "", price: 3200, available: true }, 
+  // ==================== KING'S DELICIOUS FOOD ==================== // King's Special Whole Chicken // 
+  { id: "item-618", name: "King's Special Whole Chicken", image: "", category: "King's Special", description: "Whole Chicken", price: 650, available: true },
+  { id: "item-619", name: "French Fry", image: "", category: "Appetizer", description: "", price: 230, available: true },
+  { id: "item-620", name: "Regular Wonton 8pcs", image: "", category: "Appetizer", description: "", price: 350, available: true }, 
+  { id: "item-621", name: "Chicken Nugget 6pcs", image: "", category: "Appetizer", description: "", price: 250, available: true }, 
+  { id: "item-622", name: "Special Wonton 8pcs", image: "", category: "Appetizer", description: "", price: 380, available: true }, 
+  { id: "item-623", name: "Chicken Strips 6pcs", image: "", category: "Appetizer", description: "", price: 350, available: true }, 
+  { id: "item-624", name: "Nachos", image: "", category: "Appetizer", description: "", price: 330, available: true }, 
+  { id: "item-625", name: "Spicy Chicken 6pcs", image: "", category: "Appetizer", description: "", price: 400, available: true }, 
+  { id: "item-626", name: "Thai Chicken 4pcs", image: "", category: "Appetizer", description: "", price: 420, available: true }, 
+  { id: "item-627", name: "Thai Chicken 8pcs", image: "", category: "Appetizer", description: "", price: 650, available: true }, 
+  { id: "item-628", name: "Crispy Chicken 4pcs", image: "", category: "Appetizer", description: "", price: 600, available: true }, 
+  { id: "item-629", name: "Chicken Popcorn 6pcs", image: "", category: "Appetizer", description: "", price: 320, available: true }, 
+  { id: "item-630", name: "Chicken Lollipop 6pcs", image: "", category: "Appetizer", description: "", price: 360, available: true }, // ==================== WINGS ==================== 
+  { id: "item-631", name: "King's Special Wings 4p", image: "", category: "Wings", description: "", price: 350, available: true }, 
+  { id: "item-632", name: "Naga Wings 4p", image: "", category: "Wings", description: "", price: 310, available: true }, 
+  { id: "item-633", name: "Buffalo Wings 4p", image: "", category: "Wings", description: "", price: 300, available: true }, 
+  { id: "item-634", name: "Regular Wings 4p", image: "", category: "Wings", description: "", price: 290, available: true }, // ==================== SOUP ==================== 
+  { id: "item-635", name: "King's Special Soup", image: "", category: "Soup", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-636", name: "Thai Soup", image: "", category: "Soup", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-637", name: "Special Thai Soup", image: "", category: "Soup", description: "1:2 — ৳430 | 1:3 — ৳550", price: 430, available: true }, 
+  { id: "item-638", name: "Chicken Corn Soup", image: "", category: "Soup", description: "1:2 — ৳350 | 1:3 — ৳450", price: 350, available: true }, 
+  { id: "item-639", name: "Special Chicken Corn Soup", image: "", category: "Soup", description: "1:2 — ৳360 | 1:3 — ৳480", price: 360, available: true }, 
+  { id: "item-640", name: "Vegetable Soup", image: "", category: "Soup", description: "1:2 — ৳350 | 1:3 — ৳450", price: 350, available: true }, 
+  { id: "item-641", name: "Thai Clear Soup", image: "", category: "Soup", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-642", name: "King's Special Mixed Salad", image: "", category: "Salad Item", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-643", name: "Chicken Cashewnut Salad", image: "", category: "Salad Item", description: "1:2 — ৳460 | 1:3 — ৳560", price: 460, available: true }, 
+  { id: "item-644", name: "Chicken Mushroom Salad", image: "", category: "Salad Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-645", name: "Green Cashewnut Salad", image: "", category: "Salad Item", description: "1:2 — ৳300 | 1:3 — ৳400", price: 300, available: true }, 
+  { id: "item-646", name: "Prawn Tempura 5p", image: "", category: "Fish Item", description: "", price: 400, available: true }, 
+  { id: "item-647", name: "Rupchanda Fish Fry 1p", image: "", category: "Fish Item", description: "", price: 700, available: true }, 
+  { id: "item-648", name: "Koral Fish Fry 1p", image: "", category: "Fish Item", description: "", price: 900, available: true }, 
+  { id: "item-649", name: "King's Special Mix Chowmein", image: "", category: "Chowmein", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-650", name: "Chicken Chowmein", image: "", category: "Chowmein", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-651", name: "Prawn Chowmein", image: "", category: "Chowmein", description: "1:2 — ৳420 | 1:3 — ৳520", price: 420, available: true }, 
+  { id: "item-652", name: "Beef Chowmein", image: "", category: "Chowmein", description: "1:2 — ৳430 | 1:3 — ৳530", price: 430, available: true }, 
+  { id: "item-653", name: "Thai Chowmein", image: "", category: "Chowmein", description: "1:2 — ৳500 | 1:3 — ৳600", price: 500, available: true }, 
+  { id: "item-654", name: "King's Special Mix Fried Rice", image: "", category: "Rice Item", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-655", name: "Chicken Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-656", name: "Egg Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳360 | 1:3 — ৳460", price: 360, available: true }, 
+  { id: "item-657", name: "Beef Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-658", name: "Prawn Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-659", name: "Thai Mixed Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳460 | 1:3 — ৳560", price: 460, available: true }, 
+  { id: "item-660", name: "Vegetable Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳350 | 1:3 — ৳450", price: 350, available: true }, 
+  { id: "item-661", name: "Masala Fried Rice", image: "", category: "Rice Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-662", name: "Steamed Rice", image: "", category: "Rice Item", description: "1:2 — ৳200 | 1:3 — ৳300", price: 200, available: true }, 
+  { id: "item-663", name: "King's Special Mixed Masala", image: "", category: "Masala Item", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-664", name: "Chicken Masala", image: "", category: "Masala Item", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-665", name: "Beef Masala", image: "", category: "Masala Item", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-666", name: "Prawn Masala", image: "", category: "Masala Item", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-667", name: "Foil Chicken", image: "", category: "Masala Item", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-668", name: "Chicken Manchurian", image: "", category: "Masala Item", description: "1:2 — ৳420 | 1:3 — ৳520", price: 420, available: true }, 
+  { id: "item-669", name: "Rupchanda Fish Masala", image: "", category: "Masala Item", description: "", price: 800, available: true }, 
+  { id: "item-670", name: "Coral Fish Masala", image: "", category: "Masala Item", description: "", price: 1000, available: true }, 
+  { id: "item-671", name: "King's Special Mix Chilli Onion", image: "", category: "Chilli Onion", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-672", name: "Chicken Chilli Onion", image: "", category: "Chilli Onion", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-673", name: "Beef Chilli Onion", image: "", category: "Chilli Onion", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-674", name: "Prawn Chilli Onion", image: "", category: "Chilli Onion", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true },  
+  { id: "item-675", name: "King's Special Sizzling", image: "", category: "Sizzling", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-676", name: "Beef Sizzling", image: "", category: "Sizzling", description: "1:2 — ৳500 | 1:3 — ৳600", price: 500, available: true }, 
+  { id: "item-677", name: "Chicken Sizzling", image: "", category: "Sizzling", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-678", name: "Prawn Sizzling", image: "", category: "Sizzling", description: "1:2 — ৳500 | 1:3 — ৳600", price: 500, available: true }, 
+  { id: "item-679", name: "King's Special Mixed Vegetable", image: "", category: "Vegetable", description: "1:3 — ৳650", price: 650, available: true }, 
+  { id: "item-680", name: "Mixed Vegetable", image: "", category: "Vegetable", description: "1:2 — ৳350 | 1:3 — ৳450", price: 350, available: true }, 
+  { id: "item-681", name: "Chicken Vegetable", image: "", category: "Vegetable", description: "1:2 — ৳400 | 1:3 — ৳500", price: 400, available: true }, 
+  { id: "item-682", name: "Beef Vegetable", image: "", category: "Vegetable", description: "1:2 — ৳420 | 1:3 — ৳520", price: 420, available: true }, 
+  { id: "item-683", name: "Prawn Vegetable", image: "", category: "Vegetable", description: "1:2 — ৳420 | 1:3 — ৳520", price: 420, available: true }, 
+  { id: "item-684", name: "Thai Mixed Vegetable", image: "", category: "Vegetable", description: "1:2 — ৳450 | 1:3 — ৳550", price: 450, available: true }, 
+  { id: "item-685", name: "Can Mushroom Vegetable", image: "", category: "Vegetable", description: "1:3 — ৳550", price: 550, available: true }, 
+  { id: "item-686", name: "Set Menu 1:1 - Set 01", image: "", category: "Set Menu 1:1", description: "Egg Fried Rice + Chicken Fry 1p + Vegetable + Drinks", price: 280, available: true }, 
+  { id: "item-687", name: "Set Menu 1:1 - Set 02", image: "", category: "Set Menu 1:1", description: "Egg Fried Rice + Chicken Chilli Onion + Mixed Vegetable + Drinks", price: 310, available: true }, 
+  { id: "item-688", name: "Set Menu 1:1 - Set 03", image: "", category: "Set Menu 1:1", description: "Egg Fried Rice + Chicken Fry 1p + Chicken Masala + Mixed Vegetable + Drinks", price: 400, available: true }, 
+  { id: "item-689", name: "Set Menu 1:1 - Set 04", image: "", category: "Set Menu 1:1", description: "Egg Fried Rice + Chicken Fry 1p + Prawn Masala + Vegetable + Drinks", price: 450, available: true }, 
+  { id: "item-690", name: "Set Menu 1:1 - Set 05", image: "", category: "Set Menu 1:1", description: "Egg Fried Rice + Chicken Fry 1p + Beef Masala + Vegetable + Drinks", price: 450, available: true }, 
+  // ==================== ADD ONS ==================== // 
+  { id: "item-691", name: "Fried Rice", image: "", category: "Add Ons", description: "", price: 160, available: true }, 
+  { id: "item-692", name: "Chicken Fry Thai / Crispy", image: "", category: "Add Ons", description: "", price: 120, available: true }, 
+  { id: "item-693", name: "Masala Chicken", image: "", category: "Add Ons", description: "Chicken — ৳200 | Beef — ৳240", price: 200, available: true }, 
+  // ==================== FAMILY MENU 1:4 ==================== // 
+  { id: "item-694", name: "Family Menu 1:4 - Set 01", image: "", category: "Family Menu 1:4", description: "Soup + Egg Fried Rice + Chicken Fry + Chicken Masala + Vegetable + Drinks", price: 2300, available: true }, 
+  { id: "item-695", name: "Family Menu 1:4 - Set 02", image: "", category: "Family Menu 1:4", description: "Soup + Chicken Fried Rice + Chicken Fry + Foil Chicken Gravy + Chicken Sizzling + Vegetable + Drinks", price: 2900, available: true }, 
+  { id: "item-696", name: "Family Menu 1:4 - Set 03", image: "", category: "Family Menu 1:4", description: "Soup + Thai Fried Rice + Chicken Fry + Chicken Chilli Onion + Beef Sizzling + Vegetable + Drinks", price: 3200, available: true }, 
+  // ==================== MINI PASTA ==================== // 
+  { id: "item-697", name: "Chicken Mini Pasta", image: "", category: "Mini Pasta", description: "", price: 240, available: true }, 
+  { id: "item-698", name: "Beef Mini Pasta", image: "", category: "Mini Pasta", description: "", price: 260, available: true }, 
+  // ==================== SHAWARMA ==================== 
+  { id: "item-699", name: "King's Special Shawarma", image: "", category: "Shawarma", description: "", price: 270, available: true }, 
+  { id: "item-700", name: "Beef Shawarma", image: "", category: "Shawarma", description: "", price: 210, available: true }, 
+  { id: "item-701", name: "Chicken Shawarma", image: "", category: "Shawarma", description: "", price: 190, available: true }, 
+  // ==================== BURGER ==================== 
+  { id: "item-702", name: "King's Special Burger", image: "", category: "Burger", description: "", price: 300, available: true }, 
+  { id: "item-703", name: "Chicken Cheese Regular Burger", image: "", category: "Burger", description: "", price: 210, available: true }, 
+  { id: "item-704", name: "Beef Cheese Regular Burger", image: "", category: "Burger", description: "", price: 240, available: true }, 
+  { id: "item-705", name: "Naga Power Burger", image: "", category: "Burger", description: "", price: 220, available: true }, 
+  { id: "item-706", name: "BBQ Burger", image: "", category: "Burger", description: "", price: 240, available: true }, 
+  { id: "item-707", name: "Juicy Patee Burger", image: "", category: "Burger", description: "", price: 180, available: true }, 
+  // ==================== SANDWICH ==================== 
+  { id: "item-708", name: "Chicken Sub Sandwich", image: "", category: "Sandwich", description: "", price: 180, available: true }, 
+  { id: "item-709", name: "King's Special Sub Sandwich", image: "", category: "Sandwich", description: "", price: 300, available: true }, 
+  { id: "item-710", name: "Beef Sub Sandwich", image: "", category: "Sandwich", description: "", price: 240, available: true }, // ==================== OVEN BAKED PASTA ==================== 
+  { id: "item-711", name: "King's Special Pasta", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 460, available: true }, 
+  { id: "item-712", name: "Boom Busting Backed Pasta", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 330, available: true }, 
+  { id: "item-713", name: "Pasta Italino", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 340, available: true }, 
+  { id: "item-714", name: "Pasta Meet Lovers", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 340, available: true }, 
+  { id: "item-715", name: "Pasta Basta", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 340, available: true }, 
+  { id: "item-716", name: "5 Minit Regular Backed Pasta", image: "", category: "Oven Baked Pasta 1:2", description: "", price: 330, available: true }, 
+  // ==================== SIZZLING PASTA ==================== 
+  { id: "item-717", name: "King's Special Sizzling Pasta", image: "", category: "Sizzling Pasta 1:2", description: "", price: 460, available: true }, 
+  { id: "item-718", name: "Beef Sizzling Pasta", image: "", category: "Sizzling Pasta 1:2", description: "", price: 440, available: true }, 
+  { id: "item-719", name: "Chicken Sizzling Pasta", image: "", category: "Sizzling Pasta 1:2", description: "", price: 400, available: true }, 
+  // ==================== PAN PASTA ==================== 
+  { id: "item-720", name: "King's Special Pan Pasta", image: "", category: "Pan Pasta 1:2", description: "", price: 360, available: true }, 
+  { id: "item-721", name: "Mexican Hot Pasta", image: "", category: "Pan Pasta 1:2", description: "", price: 270, available: true }, 
+  { id: "item-722", name: "Bomb Busting Pasta", image: "", category: "Pan Pasta 1:2", description: "", price: 310, available: true }, 
+  // ==================== PIZZA ==================== 
+  { id: "item-723", name: "King's Special Pizza", image: "", category: "Pizza", description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670", price: 470, available: true }, 
+  { id: "item-724", name: "Cheese Lover's Pizza", image: "", category: "Pizza", description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670", price: 470, available: true }, 
+  { id: "item-725", name: "Boom Busting Pizza", image: "", category: "Pizza", description: "8\" — ৳520 | 10\" — ৳620 | 12\" — ৳720", price: 520, available: true }, 
+  { id: "item-726", name: "Meet n Mushroom Pizza", image: "", category: "Pizza", description: "8\" — ৳470 | 10\" — ৳670 | 12\" — ৳770", price: 470, available: true }, 
+  { id: "item-727", name: "Mexican Hot Pizza", image: "", category: "Pizza", description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670", price: 470, available: true }, 
+  { id: "item-728", name: "B B Q Pizza", image: "", category: "Pizza", description: "8\" — ৳470 | 10\" — ৳670 | 12\" — ৳770", price: 470, available: true }, 
+  { id: "item-729", name: "Four Season Pizza", image: "", category: "Pizza", description: "8\" — ৳520 | 10\" — ৳620 | 12\" — ৳820", price: 520, available: true }, 
+  { id: "item-730", name: "Bef Pizza", image: "", category: "Pizza", description: "8\" — ৳570 | 10\" — ৳670 | 12\" — ৳870", price: 570, available: true }, 
+  { id: "item-731", name: "Spicy Prawn Pizza", image: "", category: "Pizza", description: "8\" — ৳570 | 10\" — ৳670 | 12\" — ৳870", price: 570, available: true }, 
+  { id: "item-732", name: "Party Pizza 16\"", image: "", category: "Pizza", description: "16\" — ৳1200", price: 1200, available: true }, 
+  // ==================== DRINKS ==================== 
+  { id: "item-733", name: "Lacchi Sweet / Salt", image: "", category: "Drinks", description: "", price: 140, available: true }, 
+  { id: "item-734", name: "Cold Coffee", image: "", category: "Drinks", description: "", price: 150, available: true }, 
+  { id: "item-735", name: "Chocolate Cold Coffee", image: "", category: "Drinks", description: "", price: 170, available: true }, 
+  { id: "item-736", name: "Milkshakes Vanilla / Mango", image: "", category: "Drinks", description: "", price: 160, available: true }, 
+  { id: "item-737", name: "Hot Coffee", image: "", category: "Drinks", description: "", price: 110, available: true }, 
+  { id: "item-738", name: "Lemonade", image: "", category: "Drinks", description: "", price: 130, available: true }, 
+  { id: "item-739", name: "Virgin Blue", image: "", category: "Drinks", description: "", price: 190, available: true }, 
+  { id: "item-740", name: "Virgin Mohito", image: "", category: "Drinks", description: "", price: 130, available: true }, 
+  { id: "item-741", name: "Orange Juice", image: "", category: "Drinks", description: "", price: 160, available: true }, 
+  { id: "item-742", name: "Oreo Shake", image: "", category: "Drinks", description: "", price: 210, available: true }, 
+  { id: "item-743", name: "Soft Drinks", image: "", category: "Drinks", description: "", price: 30, available: true }, 
+  { id: "item-744", name: "Water", image: "", category: "Drinks", description: "", price: 20, available: true }, 
+  // ==================== ICE CREAM ==================== 
+  { id: "item-745", name: "Vanilla", image: "", category: "Icecream", description: "", price: 150, available: true }, 
+  { id: "item-746", name: "Mango", image: "", category: "Icecream", description: "", price: 150, available: true }, 
+  { id: "item-747", name: "Chocolate", image: "", category: "Icecream", description: "", price: 150, available: true }, 
+  { id: "item-748", name: "Strawberry", image: "", category: "Icecream", description: "", price: 150, available: true }, 
+  { id: "item-749", name: "Mixed Ice Cream", image: "", category: "Icecream", description: "", price: 200, available: true } 
+] 
+},
+  
 
-  // Wings
-  {
-    id: "item-514",
-    name: "King's Special Wings 4p",
-    image: "restu/kings.png",
-    category: "Wings",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-515",
-    name: "Naga Wings 4p",
-    image: "restu/kings.png",
-    category: "Wings",
-    description: "",
-    price: 310,
-    available: true
-  },
-  {
-    id: "item-516",
-    name: "Buffalo Wings 4p",
-    image: "restu/kings.png",
-    category: "Wings",
-    description: "",
-    price: 300,
-    available: true
-  },
-  {
-    id: "item-517",
-    name: "Regular Wings 4p",
-    image: "restu/kings.png",
-    category: "Wings",
-    description: "",
-    price: 290,
-    available: true
-  },
-
-  // Soup
-  {
-    id: "item-518",
-    name: "King's Special Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-519",
-    name: "Thai Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-520",
-    name: "Thai Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-521",
-    name: "Special Thai Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 430,
-    available: true
-  },
-  {
-    id: "item-522",
-    name: "Special Thai Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-523",
-    name: "Chicken Corn Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-524",
-    name: "Chicken Corn Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-525",
-    name: "Special Chicken Corn Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 360,
-    available: true
-  },
-  {
-    id: "item-526",
-    name: "Special Chicken Corn Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 480,
-    available: true
-  },
-  {
-    id: "item-527",
-    name: "Vegetable Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-528",
-    name: "Vegetable Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-529",
-    name: "Thai Clear Soup 1:2",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-530",
-    name: "Thai Clear Soup 1:3",
-    image: "restu/kings.png",
-    category: "Soup",
-    description: "",
-    price: 550,
-    available: true
-  },
-
-  // Salad Item
-  {
-    id: "item-531",
-    name: "King's Special Mixed Salad 1:3",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-532",
-    name: "Chicken Cashewnut Salad 1:2",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 460,
-    available: true
-  },
-  {
-    id: "item-533",
-    name: "Chicken Cashewnut Salad 1:3",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 560,
-    available: true
-  },
-  {
-    id: "item-534",
-    name: "Chicken Mashroom Salad 1:2",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-535",
-    name: "Chicken Mashroom Salad 1:3",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-536",
-    name: "Green Cashewnut Salad 1:2",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 300,
-    available: true
-  },
-  {
-    id: "item-537",
-    name: "Green Cashewnut Salad 1:3",
-    image: "restu/kings.png",
-    category: "Salad Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-
-  // Fish Item
-  {
-    id: "item-538",
-    name: "Prawn Tempura 5p",
-    image: "restu/kings.png",
-    category: "Fish Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-539",
-    name: "Rupchanda Fish Fry 1p",
-    image: "restu/kings.png",
-    category: "Fish Item",
-    description: "",
-    price: 700,
-    available: true
-  },
-  {
-    id: "item-540",
-    name: "Koral Fish Fry 1p",
-    image: "restu/kings.png",
-    category: "Fish Item",
-    description: "",
-    price: 900,
-    available: true
-  },
-
-  // Chowmein
-  {
-    id: "item-541",
-    name: "King's Special Mix Chowmein 1:3",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-542",
-    name: "Chicken Chowmein 1:2",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-543",
-    name: "Chicken Chowmein 1:3",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-544",
-    name: "Prawn Chowmein 1:2",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 420,
-    available: true
-  },
-  {
-    id: "item-545",
-    name: "Prawn Chowmein 1:3",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 520,
-    available: true
-  },
-  {
-    id: "item-546",
-    name: "Beef Chowmein 1:2",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 430,
-    available: true
-  },
-  {
-    id: "item-547",
-    name: "Beef Chowmein 1:3",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 530,
-    available: true
-  },
-  {
-    id: "item-548",
-    name: "Thai Chowmein 1:2",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-549",
-    name: "Thai Chowmein 1:3",
-    image: "restu/kings.png",
-    category: "Chowmein",
-    description: "",
-    price: 600,
-    available: true
-  },
-
-  // Rice Item
-  {
-    id: "item-550",
-    name: "King's Special Mix Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-551",
-    name: "Chicken Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-552",
-    name: "Chicken Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-553",
-    name: "Egg Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 360,
-    available: true
-  },
-  {
-    id: "item-554",
-    name: "Egg Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 460,
-    available: true
-  },
-  {
-    id: "item-555",
-    name: "Beef Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-556",
-    name: "Beef Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-557",
-    name: "Prawn Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-558",
-    name: "Prawn Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-559",
-    name: "Thai Mixed Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 460,
-    available: true
-  },
-  {
-    id: "item-560",
-    name: "Thai Mixed Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 560,
-    available: true
-  },
-  {
-    id: "item-561",
-    name: "Vegetable Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-562",
-    name: "Vegetable Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-563",
-    name: "Masala Fried Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-564",
-    name: "Masala Fried Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-565",
-    name: "Steamed Rice 1:2",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 200,
-    available: true
-  },
-  {
-    id: "item-566",
-    name: "Steamed Rice 1:3",
-    image: "restu/kings.png",
-    category: "Rice Item",
-    description: "",
-    price: 300,
-    available: true
-  },
-
-  // Masala Item
-  {
-    id: "item-567",
-    name: "King's Special Mixed Masala 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-568",
-    name: "Chicken Masala 1:2",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-569",
-    name: "Chicken Masala 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-570",
-    name: "Beef Masala 1:2",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-571",
-    name: "Beef Masala 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-572",
-    name: "Prown Masala 1:2",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-573",
-    name: "Prown Masala 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-574",
-    name: "Foil Checken 1:2",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-575",
-    name: "Foil Checken 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-576",
-    name: "Chicken Manchurian 1:2",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 420,
-    available: true
-  },
-  {
-    id: "item-577",
-    name: "Chicken Manchurian 1:3",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 520,
-    available: true
-  },
-  {
-    id: "item-578",
-    name: "Rupchanda Fish Masala",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 800,
-    available: true
-  },
-  {
-    id: "item-579",
-    name: "Coral Fish Masala",
-    image: "restu/kings.png",
-    category: "Masala Item",
-    description: "",
-    price: 1000,
-    available: true
-  },
-
-  // Chilli Onion
-  {
-    id: "item-580",
-    name: "King's Special Mix Chilli Onion 1:3",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-581",
-    name: "Chicken Chilli Onion 1:2",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-582",
-    name: "Chicken Chilli Onion 1:3",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-583",
-    name: "Beef Chilli Onion 1:2",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-584",
-    name: "Beef Chilli Onion 1:3",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-585",
-    name: "Prown Chilli Onion 1:2",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-586",
-    name: "Prown Chilli Onion 1:3",
-    image: "restu/kings.png",
-    category: "Chilli Onion",
-    description: "",
-    price: 550,
-    available: true
-  },
-
-  // Sizzling
-  {
-    id: "item-587",
-    name: "Kings Special Sizzling 1:3",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-588",
-    name: "Beef Sizzling 1:2",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-589",
-    name: "Beef Sizzling 1:3",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 600,
-    available: true
-  },
-  {
-    id: "item-590",
-    name: "Chicken Sizzling 1:2",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-591",
-    name: "Chicken Sizzling 1:3",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-592",
-    name: "Prawn Sizzling 1:2",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-593",
-    name: "Prawn Sizzling 1:3",
-    image: "restu/kings.png",
-    category: "Sizzling",
-    description: "",
-    price: 600,
-    available: true
-  },
-
-  // Vegetable
-  {
-    id: "item-594",
-    name: "King's Special Mixed Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 650,
-    available: true
-  },
-  {
-    id: "item-595",
-    name: "Mixed Vegetable 1:2",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 350,
-    available: true
-  },
-  {
-    id: "item-596",
-    name: "Mixed Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-597",
-    name: "Chicken Vegetable 1:2",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-598",
-    name: "Chicken Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 500,
-    available: true
-  },
-  {
-    id: "item-599",
-    name: "Beef Vegetable 1:2",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 420,
-    available: true
-  },
-  {
-    id: "item-600",
-    name: "Beef Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 520,
-    available: true
-  },
-  {
-    id: "item-601",
-    name: "Prown Vegetable 1:2",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 420,
-    available: true
-  },
-  {
-    id: "item-602",
-    name: "Prown Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 520,
-    available: true
-  },
-  {
-    id: "item-603",
-    name: "Thai Mixed Vegetable 1:2",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-604",
-    name: "Thai Mixed Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 550,
-    available: true
-  },
-  {
-    id: "item-605",
-    name: "Can Mushroom Vegetable 1:3",
-    image: "restu/kings.png",
-    category: "Vegetable",
-    description: "",
-    price: 550,
-    available: true
-  },
-
-  // Set Menu 1:1
-  {
-    id: "item-606",
-    name: "Egg Fried Rice + Chicken Fry 1p + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Set Menu 1:1",
-    description: "",
-    price: 280,
-    available: true
-  },
-  {
-    id: "item-607",
-    name: "Egg Fried Rice + Chicken Chilli Onion + Mixed Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Set Menu 1:1",
-    description: "",
-    price: 310,
-    available: true
-  },
-  {
-    id: "item-608",
-    name: "Egg Fried Rice + Chicken Fry 1p + Chicken Masala + Mixed Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Set Menu 1:1",
-    description: "",
-    price: 400,
-    available: true
-  },
-  {
-    id: "item-609",
-    name: "Egg Fried Rice + Chicken Fry 1p + Prown Masala + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Set Menu 1:1",
-    description: "",
-    price: 450,
-    available: true
-  },
-  {
-    id: "item-610",
-    name: "Egg Fried Rice + Chicken Fry 1p + Beef Masala + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Set Menu 1:1",
-    description: "",
-    price: 450,
-    available: true
-  },
-
-  // Add ons
-  {
-    id: "item-611",
-    name: "Fried Rice",
-    image: "restu/kings.png",
-    category: "Add ons",
-    description: "",
-    price: 160,
-    available: true
-  },
-  {
-    id: "item-612",
-    name: "Chicken Fry Thai / Crispy",
-    image: "restu/kings.png",
-    category: "Add ons",
-    description: "",
-    price: 120,
-    available: true
-  },
-  {
-    id: "item-613",
-    name: "Masala Chicken",
-    image: "restu/kings.png",
-    category: "Add ons",
-    description: "",
-    price: 200,
-    available: true
-  },
-  {
-    id: "item-614",
-    name: "Masala Beef",
-    image: "restu/kings.png",
-    category: "Add ons",
-    description: "",
-    price: 240,
-    available: true
-  },
-
-  // Family Menu 1:4
-  {
-    id: "item-615",
-    name: "Soup + Egg Fried Rice + Chicken Fry + Chicken Masala + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Family Menu 1:4",
-    description: "",
-    price: 2300,
-    available: true
-  },
-  {
-    id: "item-616",
-    name: "Soup + Chicken Fried Rice + Chicken Fry + Foil Chicken Gravy + Chicken Sizzling + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Family Menu 1:4",
-    description: "",
-    price: 2900,
-    available: true
-  },
-  {
-    id: "item-617",
-    name: "Soup + Thai Fried Rice + Chicken Fry + Chicken Chilli Onion + Beef Sizzling + Vegetable + Drinks",
-    image: "restu/kings.png",
-    category: "Family Menu 1:4",
-    description: "",
-    price: 3200,
-    available: true
-  }, 
-   // ==================== KING'S DELICIOUS FOOD ====================
-
-// King's Special Whole Chicken
-{
-  id: "item-618",
-  name: "King's Special Whole Chicken",
-  image: "",
-  category: "King's Special",
-  description: "Whole Chicken",
-  price: 650,
-  available: true
-},
-
-// ==================== APPETIZER ====================
-{
-  id: "item-619",
-  name: "French Fry",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 230,
-  available: true
-},
-{
-  id: "item-620",
-  name: "Regular Wonton 8pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 350,
-  available: true
-},
-{
-  id: "item-621",
-  name: "Chicken Nugget 6pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 250,
-  available: true
-},
-{
-  id: "item-622",
-  name: "Special Wonton 8pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 380,
-  available: true
-},
-{
-  id: "item-623",
-  name: "Chicken Strips 6pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 350,
-  available: true
-},
-{
-  id: "item-624",
-  name: "Nachos",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 330,
-  available: true
-},
-{
-  id: "item-625",
-  name: "Spicy Chicken 6pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 400,
-  available: true
-},
-{
-  id: "item-626",
-  name: "Thai Chicken 4pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 420,
-  available: true
-},
-{
-  id: "item-627",
-  name: "Thai Chicken 8pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 650,
-  available: true
-},
-{
-  id: "item-628",
-  name: "Crispy Chicken 4pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 600,
-  available: true
-},
-{
-  id: "item-629",
-  name: "Chicken Popcorn 6pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 320,
-  available: true
-},
-{
-  id: "item-630",
-  name: "Chicken Lollipop 6pcs",
-  image: "",
-  category: "Appetizer",
-  description: "",
-  price: 360,
-  available: true
-},
-
-// ==================== WINGS ====================
-{
-  id: "item-631",
-  name: "King's Special Wings 4p",
-  image: "",
-  category: "Wings",
-  description: "",
-  price: 350,
-  available: true
-},
-{
-  id: "item-632",
-  name: "Naga Wings 4p",
-  image: "",
-  category: "Wings",
-  description: "",
-  price: 310,
-  available: true
-},
-{
-  id: "item-633",
-  name: "Buffalo Wings 4p",
-  image: "",
-  category: "Wings",
-  description: "",
-  price: 300,
-  available: true
-},
-{
-  id: "item-634",
-  name: "Regular Wings 4p",
-  image: "",
-  category: "Wings",
-  description: "",
-  price: 290,
-  available: true
-},
-
-// ==================== SOUP ====================
-{
-  id: "item-635",
-  name: "King's Special Soup",
-  image: "",
-  category: "Soup",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-636",
-  name: "Thai Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-637",
-  name: "Special Thai Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳430 | 1:3 — ৳550",
-  price: 430,
-  available: true
-},
-{
-  id: "item-638",
-  name: "Chicken Corn Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳350 | 1:3 — ৳450",
-  price: 350,
-  available: true
-},
-{
-  id: "item-639",
-  name: "Special Chicken Corn Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳360 | 1:3 — ৳480",
-  price: 360,
-  available: true
-},
-{
-  id: "item-640",
-  name: "Vegetable Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳350 | 1:3 — ৳450",
-  price: 350,
-  available: true
-},
-{
-  id: "item-641",
-  name: "Thai Clear Soup",
-  image: "",
-  category: "Soup",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-
-// ==================== SALAD ITEM ====================
-{
-  id: "item-642",
-  name: "King's Special Mixed Salad",
-  image: "",
-  category: "Salad Item",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-643",
-  name: "Chicken Cashewnut Salad",
-  image: "",
-  category: "Salad Item",
-  description: "1:2 — ৳460 | 1:3 — ৳560",
-  price: 460,
-  available: true
-},
-{
-  id: "item-644",
-  name: "Chicken Mushroom Salad",
-  image: "",
-  category: "Salad Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-645",
-  name: "Green Cashewnut Salad",
-  image: "",
-  category: "Salad Item",
-  description: "1:2 — ৳300 | 1:3 — ৳400",
-  price: 300,
-  available: true
-},
-
-// ==================== FISH ITEM ====================
-{
-  id: "item-646",
-  name: "Prawn Tempura 5p",
-  image: "",
-  category: "Fish Item",
-  description: "",
-  price: 400,
-  available: true
-},
-{
-  id: "item-647",
-  name: "Rupchanda Fish Fry 1p",
-  image: "",
-  category: "Fish Item",
-  description: "",
-  price: 700,
-  available: true
-},
-{
-  id: "item-648",
-  name: "Koral Fish Fry 1p",
-  image: "",
-  category: "Fish Item",
-  description: "",
-  price: 900,
-  available: true
-},
-
-// ==================== CHOWMEIN ====================
-{
-  id: "item-649",
-  name: "King's Special Mix Chowmein",
-  image: "",
-  category: "Chowmein",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-650",
-  name: "Chicken Chowmein",
-  image: "",
-  category: "Chowmein",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-651",
-  name: "Prawn Chowmein",
-  image: "",
-  category: "Chowmein",
-  description: "1:2 — ৳420 | 1:3 — ৳520",
-  price: 420,
-  available: true
-},
-{
-  id: "item-652",
-  name: "Beef Chowmein",
-  image: "",
-  category: "Chowmein",
-  description: "1:2 — ৳430 | 1:3 — ৳530",
-  price: 430,
-  available: true
-},
-{
-  id: "item-653",
-  name: "Thai Chowmein",
-  image: "",
-  category: "Chowmein",
-  description: "1:2 — ৳500 | 1:3 — ৳600",
-  price: 500,
-  available: true
-},
-
-// ==================== RICE ITEM ====================
-{
-  id: "item-654",
-  name: "King's Special Mix Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-655",
-  name: "Chicken Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-656",
-  name: "Egg Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳360 | 1:3 — ৳460",
-  price: 360,
-  available: true
-},
-{
-  id: "item-657",
-  name: "Beef Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-658",
-  name: "Prawn Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-659",
-  name: "Thai Mixed Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳460 | 1:3 — ৳560",
-  price: 460,
-  available: true
-},
-{
-  id: "item-660",
-  name: "Vegetable Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳350 | 1:3 — ৳450",
-  price: 350,
-  available: true
-},
-{
-  id: "item-661",
-  name: "Masala Fried Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-662",
-  name: "Steamed Rice",
-  image: "",
-  category: "Rice Item",
-  description: "1:2 — ৳200 | 1:3 — ৳300",
-  price: 200,
-  available: true
-},
-
-// ==================== MASALA ITEM ====================
-{
-  id: "item-663",
-  name: "King's Special Mixed Masala",
-  image: "",
-  category: "Masala Item",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-664",
-  name: "Chicken Masala",
-  image: "",
-  category: "Masala Item",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-665",
-  name: "Beef Masala",
-  image: "",
-  category: "Masala Item",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-666",
-  name: "Prawn Masala",
-  image: "",
-  category: "Masala Item",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-667",
-  name: "Foil Chicken",
-  image: "",
-  category: "Masala Item",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-668",
-  name: "Chicken Manchurian",
-  image: "",
-  category: "Masala Item",
-  description: "1:2 — ৳420 | 1:3 — ৳520",
-  price: 420,
-  available: true
-},
-{
-  id: "item-669",
-  name: "Rupchanda Fish Masala",
-  image: "",
-  category: "Masala Item",
-  description: "",
-  price: 800,
-  available: true
-},
-{
-  id: "item-670",
-  name: "Coral Fish Masala",
-  image: "",
-  category: "Masala Item",
-  description: "",
-  price: 1000,
-  available: true
-},
-
-// ==================== CHILLI ONION ====================
-{
-  id: "item-671",
-  name: "King's Special Mix Chilli Onion",
-  image: "",
-  category: "Chilli Onion",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-672",
-  name: "Chicken Chilli Onion",
-  image: "",
-  category: "Chilli Onion",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-673",
-  name: "Beef Chilli Onion",
-  image: "",
-  category: "Chilli Onion",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-674",
-  name: "Prawn Chilli Onion",
-  image: "",
-  category: "Chilli Onion",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-
-// ==================== SIZZLING ====================
-{
-  id: "item-675",
-  name: "King's Special Sizzling",
-  image: "",
-  category: "Sizzling",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-676",
-  name: "Beef Sizzling",
-  image: "",
-  category: "Sizzling",
-  description: "1:2 — ৳500 | 1:3 — ৳600",
-  price: 500,
-  available: true
-},
-{
-  id: "item-677",
-  name: "Chicken Sizzling",
-  image: "",
-  category: "Sizzling",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-678",
-  name: "Prawn Sizzling",
-  image: "",
-  category: "Sizzling",
-  description: "1:2 — ৳500 | 1:3 — ৳600",
-  price: 500,
-  available: true
-},
-
-// ==================== VEGETABLE ====================
-{
-  id: "item-679",
-  name: "King's Special Mixed Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:3 — ৳650",
-  price: 650,
-  available: true
-},
-{
-  id: "item-680",
-  name: "Mixed Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:2 — ৳350 | 1:3 — ৳450",
-  price: 350,
-  available: true
-},
-{
-  id: "item-681",
-  name: "Chicken Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:2 — ৳400 | 1:3 — ৳500",
-  price: 400,
-  available: true
-},
-{
-  id: "item-682",
-  name: "Beef Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:2 — ৳420 | 1:3 — ৳520",
-  price: 420,
-  available: true
-},
-{
-  id: "item-683",
-  name: "Prawn Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:2 — ৳420 | 1:3 — ৳520",
-  price: 420,
-  available: true
-},
-{
-  id: "item-684",
-  name: "Thai Mixed Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:2 — ৳450 | 1:3 — ৳550",
-  price: 450,
-  available: true
-},
-{
-  id: "item-685",
-  name: "Can Mushroom Vegetable",
-  image: "",
-  category: "Vegetable",
-  description: "1:3 — ৳550",
-  price: 550,
-  available: true
-},
-
-// ==================== SET MENU 1:1 ====================
-{
-  id: "item-686",
-  name: "Set Menu 1:1 - Set 01",
-  image: "",
-  category: "Set Menu 1:1",
-  description: "Egg Fried Rice + Chicken Fry 1p + Vegetable + Drinks",
-  price: 280,
-  available: true
-},
-{
-  id: "item-687",
-  name: "Set Menu 1:1 - Set 02",
-  image: "",
-  category: "Set Menu 1:1",
-  description: "Egg Fried Rice + Chicken Chilli Onion + Mixed Vegetable + Drinks",
-  price: 310,
-  available: true
-},
-{
-  id: "item-688",
-  name: "Set Menu 1:1 - Set 03",
-  image: "",
-  category: "Set Menu 1:1",
-  description: "Egg Fried Rice + Chicken Fry 1p + Chicken Masala + Mixed Vegetable + Drinks",
-  price: 400,
-  available: true
-},
-{
-  id: "item-689",
-  name: "Set Menu 1:1 - Set 04",
-  image: "",
-  category: "Set Menu 1:1",
-  description: "Egg Fried Rice + Chicken Fry 1p + Prawn Masala + Vegetable + Drinks",
-  price: 450,
-  available: true
-},
-{
-  id: "item-690",
-  name: "Set Menu 1:1 - Set 05",
-  image: "",
-  category: "Set Menu 1:1",
-  description: "Egg Fried Rice + Chicken Fry 1p + Beef Masala + Vegetable + Drinks",
-  price: 450,
-  available: true
-},
-
-// ==================== ADD ONS ====================
-{
-  id: "item-691",
-  name: "Fried Rice",
-  image: "",
-  category: "Add Ons",
-  description: "",
-  price: 160,
-  available: true
-},
-{
-  id: "item-692",
-  name: "Chicken Fry Thai / Crispy",
-  image: "",
-  category: "Add Ons",
-  description: "",
-  price: 120,
-  available: true
-},
-{
-  id: "item-693",
-  name: "Masala Chicken",
-  image: "",
-  category: "Add Ons",
-  description: "Chicken — ৳200 | Beef — ৳240",
-  price: 200,
-  available: true
-},
-
-// ==================== FAMILY MENU 1:4 ====================
-{
-  id: "item-694",
-  name: "Family Menu 1:4 - Set 01",
-  image: "",
-  category: "Family Menu 1:4",
-  description: "Soup + Egg Fried Rice + Chicken Fry + Chicken Masala + Vegetable + Drinks",
-  price: 2300,
-  available: true
-},
-{
-  id: "item-695",
-  name: "Family Menu 1:4 - Set 02",
-  image: "",
-  category: "Family Menu 1:4",
-  description: "Soup + Chicken Fried Rice + Chicken Fry + Foil Chicken Gravy + Chicken Sizzling + Vegetable + Drinks",
-  price: 2900,
-  available: true
-},
-{
-  id: "item-696",
-  name: "Family Menu 1:4 - Set 03",
-  image: "",
-  category: "Family Menu 1:4",
-  description: "Soup + Thai Fried Rice + Chicken Fry + Chicken Chilli Onion + Beef Sizzling + Vegetable + Drinks",
-  price: 3200,
-  available: true
-},
-
-// ==================== MINI PASTA ====================
-{
-  id: "item-697",
-  name: "Chicken Mini Pasta",
-  image: "",
-  category: "Mini Pasta",
-  description: "",
-  price: 240,
-  available: true
-},
-{
-  id: "item-698",
-  name: "Beef Mini Pasta",
-  image: "",
-  category: "Mini Pasta",
-  description: "",
-  price: 260,
-  available: true
-},
-
-// ==================== SHAWARMA ====================
-{
-  id: "item-699",
-  name: "King's Special Shawarma",
-  image: "",
-  category: "Shawarma",
-  description: "",
-  price: 270,
-  available: true
-},
-{
-  id: "item-700",
-  name: "Beef Shawarma",
-  image: "",
-  category: "Shawarma",
-  description: "",
-  price: 210,
-  available: true
-},
-{
-  id: "item-701",
-  name: "Chicken Shawarma",
-  image: "",
-  category: "Shawarma",
-  description: "",
-  price: 190,
-  available: true
-},
-
-// ==================== BURGER ====================
-{
-  id: "item-702",
-  name: "King's Special Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 300,
-  available: true
-},
-{
-  id: "item-703",
-  name: "Chicken Cheese Regular Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 210,
-  available: true
-},
-{
-  id: "item-704",
-  name: "Beef Cheese Regular Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 240,
-  available: true
-},
-{
-  id: "item-705",
-  name: "Naga Power Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 220,
-  available: true
-},
-{
-  id: "item-706",
-  name: "BBQ Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 240,
-  available: true
-},
-{
-  id: "item-707",
-  name: "Juicy Patee Burger",
-  image: "",
-  category: "Burger",
-  description: "",
-  price: 180,
-  available: true
-},
-
-// ==================== SANDWICH ====================
-{
-  id: "item-708",
-  name: "Chicken Sub Sandwich",
-  image: "",
-  category: "Sandwich",
-  description: "",
-  price: 180,
-  available: true
-},
-{
-  id: "item-709",
-  name: "King's Special Sub Sandwich",
-  image: "",
-  category: "Sandwich",
-  description: "",
-  price: 300,
-  available: true
-},
-{
-  id: "item-710",
-  name: "Beef Sub Sandwich",
-  image: "",
-  category: "Sandwich",
-  description: "",
-  price: 240,
-  available: true
-},
-
-// ==================== OVEN BAKED PASTA ====================
-{
-  id: "item-711",
-  name: "King's Special Pasta",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 460,
-  available: true
-},
-{
-  id: "item-712",
-  name: "Boom Busting Backed Pasta",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 330,
-  available: true
-},
-{
-  id: "item-713",
-  name: "Pasta Italino",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 340,
-  available: true
-},
-{
-  id: "item-714",
-  name: "Pasta Meet Lovers",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 340,
-  available: true
-},
-{
-  id: "item-715",
-  name: "Pasta Basta",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 340,
-  available: true
-},
-{
-  id: "item-716",
-  name: "5 Minit Regular Backed Pasta",
-  image: "",
-  category: "Oven Baked Pasta 1:2",
-  description: "",
-  price: 330,
-  available: true
-},
-
-// ==================== SIZZLING PASTA ====================
-{
-  id: "item-717",
-  name: "King's Special Sizzling Pasta",
-  image: "",
-  category: "Sizzling Pasta 1:2",
-  description: "",
-  price: 460,
-  available: true
-},
-{
-  id: "item-718",
-  name: "Beef Sizzling Pasta",
-  image: "",
-  category: "Sizzling Pasta 1:2",
-  description: "",
-  price: 440,
-  available: true
-},
-{
-  id: "item-719",
-  name: "Chicken Sizzling Pasta",
-  image: "",
-  category: "Sizzling Pasta 1:2",
-  description: "",
-  price: 400,
-  available: true
-},
-
-// ==================== PAN PASTA ====================
-{
-  id: "item-720",
-  name: "King's Special Pan Pasta",
-  image: "",
-  category: "Pan Pasta 1:2",
-  description: "",
-  price: 360,
-  available: true
-},
-{
-  id: "item-721",
-  name: "Mexican Hot Pasta",
-  image: "",
-  category: "Pan Pasta 1:2",
-  description: "",
-  price: 270,
-  available: true
-},
-{
-  id: "item-722",
-  name: "Bomb Busting Pasta",
-  image: "",
-  category: "Pan Pasta 1:2",
-  description: "",
-  price: 310,
-  available: true
-},
-
-// ==================== PIZZA ====================
-{
-  id: "item-723",
-  name: "King's Special Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670",
-  price: 470,
-  available: true
-},
-{
-  id: "item-724",
-  name: "Cheese Lover's Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670",
-  price: 470,
-  available: true
-},
-{
-  id: "item-725",
-  name: "Boom Busting Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳520 | 10\" — ৳620 | 12\" — ৳720",
-  price: 520,
-  available: true
-},
-{
-  id: "item-726",
-  name: "Meet n Mushroom Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳470 | 10\" — ৳670 | 12\" — ৳770",
-  price: 470,
-  available: true
-},
-{
-  id: "item-727",
-  name: "Mexican Hot Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳470 | 10\" — ৳570 | 12\" — ৳670",
-  price: 470,
-  available: true
-},
-{
-  id: "item-728",
-  name: "B B Q Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳470 | 10\" — ৳670 | 12\" — ৳770",
-  price: 470,
-  available: true
-},
-{
-  id: "item-729",
-  name: "Four Season Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳520 | 10\" — ৳620 | 12\" — ৳820",
-  price: 520,
-  available: true
-},
-{
-  id: "item-730",
-  name: "Bef Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳570 | 10\" — ৳670 | 12\" — ৳870",
-  price: 570,
-  available: true
-},
-{
-  id: "item-731",
-  name: "Spicy Prawn Pizza",
-  image: "",
-  category: "Pizza",
-  description: "8\" — ৳570 | 10\" — ৳670 | 12\" — ৳870",
-  price: 570,
-  available: true
-},
-{
-  id: "item-732",
-  name: "Party Pizza 16\"",
-  image: "",
-  category: "Pizza",
-  description: "16\" — ৳1200",
-  price: 1200,
-  available: true
-},
-
-// ==================== DRINKS ====================
-{
-  id: "item-733",
-  name: "Lacchi Sweet / Salt",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 140,
-  available: true
-},
-{
-  id: "item-734",
-  name: "Cold Coffee",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 150,
-  available: true
-},
-{
-  id: "item-735",
-  name: "Chocolate Cold Coffee",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 170,
-  available: true
-},
-{
-  id: "item-736",
-  name: "Milkshakes Vanilla / Mango",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 160,
-  available: true
-},
-{
-  id: "item-737",
-  name: "Hot Coffee",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 110,
-  available: true
-},
-{
-  id: "item-738",
-  name: "Lemonade",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 130,
-  available: true
-},
-{
-  id: "item-739",
-  name: "Virgin Blue",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 190,
-  available: true
-},
-{
-  id: "item-740",
-  name: "Virgin Mohito",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 130,
-  available: true
-},
-{
-  id: "item-741",
-  name: "Orange Juice",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 160,
-  available: true
-},
-{
-  id: "item-742",
-  name: "Oreo Shake",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 210,
-  available: true
-},
-{
-  id: "item-743",
-  name: "Soft Drinks",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 30,
-  available: true
-},
-{
-  id: "item-744",
-  name: "Water",
-  image: "",
-  category: "Drinks",
-  description: "",
-  price: 20,
-  available: true
-},
-
-// ==================== ICE CREAM ====================
-{
-  id: "item-745",
-  name: "Vanilla",
-  image: "",
-  category: "Icecream",
-  description: "",
-  price: 150,
-  available: true
-},
-{
-  id: "item-746",
-  name: "Mango",
-  image: "",
-  category: "Icecream",
-  description: "",
-  price: 150,
-  available: true
-},
-{
-  id: "item-747",
-  name: "Chocolate",
-  image: "",
-  category: "Icecream",
-  description: "",
-  price: 150,
-  available: true
-},
-{
-  id: "item-748",
-  name: "Strawberry",
-  image: "",
-  category: "Icecream",
-  description: "",
-  price: 150,
-  available: true
-},
-{
-  id: "item-749",
-  name: "Mixed Ice Cream",
-  image: "",
-  category: "Icecream",
-  description: "",
-  price: 200,
-  available: true
-}   
-]
-  },
-    
 
   {
     id: "rest-003",
